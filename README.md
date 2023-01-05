@@ -1,4 +1,4 @@
-# GPT3-Neighborhoods
+# CityScout: Neighbourhood Recommender
 This App recommends neighborhoods in a city based on user preferences.
 - Users: People that are looking to move into a new neighborhood
 - Need: There are a lot of pros and cons for different cities, towns, etc so it gets difficult to 
