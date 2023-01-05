@@ -1,0 +1,52 @@
+{% extends "layout.html" %} {% block content %}
+
+<script
+  type="text/javascript"
+  src="{{ url_for('static', filename = 'input.js') }}"
+></script>
+
+<div class="loading">
+  <h2 class="head-text">Loading locations...</h2>
+  <div class="d-flex justify-content-center">
+    <img src="../static/loading.gif" />
+  </div>
+</div>
+<div class="content">
+  <div class="head-content">
+    <h2 class="head-text">First, let’s get to know your preferences.</h2>
+  </div>
+  <div class="main-content">
+    <form>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="City">City</label>
+            <input class="form-control" id="City" />
+          </div>
+          <div class="form-group">
+            <label for="preferenceNo">No. of Preferences</label>
+            <select class="form-control" id="preferenceNo">
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group" id="preferenceList">
+            <div class="form-group">
+              <label for="preference">Preference #1</label>
+              <input class="form-control" id="preference1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="d-flex flex-row-reverse footer-content">
+      <button id="input-next-btn" >Next →</button>
+    </div>
+  </div>
+</div>
+{% endblock %}

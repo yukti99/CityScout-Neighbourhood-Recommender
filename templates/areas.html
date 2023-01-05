@@ -1,0 +1,36 @@
+{% extends "layout.html" %} {% block content %}
+<script type="text/javascript">
+  function loading() {
+    $('.loading').show();
+    $('.content').hide();
+  }
+</script>
+
+<div class="loading">
+  <h2 class="head-text">Loading info...</h2>
+  <div class="d-flex justify-content-center">
+    <img src="../static/loading.gif" />
+  </div>
+</div>
+<div class="content">
+  <div class="head-content">
+    <h2 class="head-text">Here are some areas based on your preferences:</h2>
+  </div>
+  <div class="main-content">
+    <div class="d-flex flex-column align-items-center">
+      <div class="list-options">
+        {% for i in range(gpt_areas|length) %}
+        <a
+          class="area-option"
+          href="{{'/area/' ~ i|string}}"
+          onclick="loading()"
+          >{{gpt_areas[i]}}</a
+        >
+        {% endfor %}
+      </div>
+
+      <p>Select an area to learn more about it.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}

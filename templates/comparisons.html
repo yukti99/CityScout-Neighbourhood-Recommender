@@ -1,0 +1,25 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="content">
+  <div class="head-content">
+    <h2 class="head-text">Comparisons for ‘{{pref}}’</h2>
+  </div>
+  <div class="main-content">
+    <div id="proscons-sub-content">
+      <ul>
+        {% for comparison in gpt_comparisons %}
+        <li>{{comparison}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex justify-content-between footer-content">
+    <button id="choose-pref-btn" onclick="location.href='/preferences'">
+      ← Choose another Preference
+    </button>
+    <button id="proscons-btn" onclick="location.href='/prosconslist'">
+      Area Pros & Cons →
+    </button>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "layout.html" %} {% block content %}
+<div class="content">
+  <div class="head-content-home">
+    <div class="home-img-container">
+      <img src="../static/cities.jpg" class="home-img" />
+    </div>
+    <h1 class="home-heading">
+      Find the best place to live without searching for hours.
+    </h1>
+  </div>
+  <div class="main-content" id="home">
+    <p class="home-main-text">
+      Enter your preferences to find which places best suit you
+    </p>
+  </div>
+  <div class="footer-content">
+    <div class="home-buttons">
+      <button
+        class="btn btn-outline-success my-2 my-sm-0"
+        onclick="location.href='/input'"
+      >
+        Let's Go
+      </button>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "layout.html" %} {% block content %}
+<div class="content">
+  <div class="head-content-home">
+    <h1 class="head-text">Thank you for using our City Scout!</h1>
+  </div>
+  <div class="main-content" id="home">
+    <p class="home-main-text">
+      We hope you learned a lot of information about different
+      neighborhoods in {{city}}!
+    </p>
+  </div>
+  <div class="footer-content">
+    <div class="home-buttons">
+      <button
+        id="end-go-home-btn"
+        class="btn btn-outline-success my-2 my-sm-0"
+        onclick="location.href='/'"
+      >
+        Go Home
+      </button>
+      <button
+        id="end-get-recs-btn"
+        class="btn btn-outline-success my-2 my-sm-0"
+        onclick="location.href='/input'"
+      >
+        Get Recs for Different Area
+      </button>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "layout.html" %} {% block content %}
+<script type="text/javascript">
+  function loading() {
+    $('.loading').show();
+    $('.content').hide();
+  }
+</script>
+
+<div class="loading">
+  <h2 class="head-text">Loading comparisons...</h2>
+  <div class="d-flex justify-content-center">
+    <img src="../static/loading.gif" />
+  </div>
+</div>
+<div class="content">
+  <div class="head-content">
+    <h2 class="head-text">Choose a preference to compare different areas</h2>
+  </div>
+  <div class="main-content">
+    <div class="d-flex flex-column align-items-center">
+      <div class="list-options">
+        {% for i in range(preferences|length) %}
+        <a
+          class="area-option"
+          href="{{'/compare/' ~ i|string}}"
+          onclick="loading()"
+          >{{preferences[i]}}</a
+        >
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="d-flex flex-row-reverse footer-content"></div>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "layout.html" %} {% block content %}
+<script type="text/javascript">
+  function loading() {
+    $('.loading').show();
+    $('.content').hide();
+  }
+</script>
+
+<div class="loading">
+  <h2 class="head-text">Loading pros and cons...</h2>
+  <div class="d-flex justify-content-center">
+    <img src="../static/loading.gif" />
+  </div>
+</div>
+<div class="content">
+  <div class="head-content">
+    <h2 class="head-text">Choose a Location to View it’s Pros & Cons:</h2>
+  </div>
+  <div class="main-content">
+    <div class="d-flex flex-column align-items-center">
+      <div class="list-options">
+        {% for i in range(gpt_areas|length) %}
+        <a
+          class="area-option"
+          href="{{'/proscons/' ~ i|string}}"
+          onclick="loading()"
+          >{{gpt_areas[i]}}</a
+        >
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

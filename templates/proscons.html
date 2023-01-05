@@ -1,0 +1,31 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="content">
+  <div class="head-content">
+    <h2 class="head-text">Pros & Cons for ‘{{n_name}}’</h2>
+  </div>
+  <div class="main-content">
+    <div id="proscons-sub-content">
+      <h4>Pros</h4>
+      <ul>
+        {% for pro in pros %}
+        <li>{{pro}}</li>
+        {% endfor %}
+      </ul>
+      <br />
+      <h4>Cons</h4>
+      <ul>
+        {% for con in cons %}
+        <li>{{con}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="d-flex justify-content-between footer-content">
+    <button id="proscons-back-btn" onclick="location.href='/prosconslist'">
+      ← Back to Location List
+    </button>
+    <button id="end-btn" onclick="location.href='/end'">Finish →</button>
+  </div>
+</div>
+{% endblock %}
