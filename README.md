@@ -9,8 +9,11 @@ subway, and nearby a dog friendly park.
 without having to discover places the long way around.
 
 Demo Youtube Link: https://youtu.be/WPYWaYYD9aM
-| | |
-|:-------------------------:|:-------------------------:|
-|<img src="images/i1.jpg" width="1000" height="250" /> | <img src="images/i2.jpg" width="1000" height="250" /> |
-|<img src="images/i3.jpg" width="1000" height="250" /> | <img src="images/i4.jpg" width="1000" height="250" /> |
-|<img src="images/i5.jpg" width="1000" height="250" /> | <img src="images/i6.jpg" width="1000" height="250" /> |
+| |
+|:-------------------------:|
+|<img src="images/i1.jpg"/> | 
+|<img src="images/i2.jpg"/> |
+|<img src="images/i3.jpg"/> | 
+|<img src="images/i4.jpg"/> |
+|<img src="images/i5.jpg"/> | 
+|<img src="images/i6.jpg"/> |
