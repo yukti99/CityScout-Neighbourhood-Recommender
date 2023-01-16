@@ -8,7 +8,8 @@ subway, and nearby a dog friendly park.
 - Solution: Using a recommendation system will help narrow down options for people 
 without having to discover places the long way around.
 
-Demo Youtube Link: https://youtu.be/WPYWaYYD9aM
+Demo Link: https://youtu.be/WPYWaYYD9aM
+
 | |
 |:-------------------------:|
 |<h3><b>1. GPT-powered website that helps users find places that suite their needs</b></h3> <img src="images/i1.jpg"/> | 
