@@ -52,3 +52,7 @@ Demo Link: https://youtu.be/WPYWaYYD9aM
     or  
     python server.py
 
+## Developers
+  Yukti Khurana <br>
+  Arthi Krishna <br>
+  Christine Kim <br>
