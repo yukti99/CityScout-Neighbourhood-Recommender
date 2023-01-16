@@ -11,9 +11,9 @@ without having to discover places the long way around.
 Demo Youtube Link: https://youtu.be/WPYWaYYD9aM
 | |
 |:-------------------------:|
-|<img src="images/i1.jpg"/> | 
-|<img src="images/i2.jpg"/> |
-|<img src="images/i3.jpg"/> | 
-|<img src="images/i4.jpg"/> |
-|<img src="images/i5.jpg"/> | 
-|<img src="images/i6.jpg"/> |
+|<h3><b>1. GPT-powered website that helps users find places that suite their needs</b></h3> <img src="images/i1.jpg"/> | 
+|<h3><b>2. Enter up to 5 preferences regarding the neighbourhood you want to shift to</b></h3> <img src="images/i2.jpg"/> |
+|<h3><b>3. Choose and learn more from the recommended locations</b></h3> <img src="images/i3.jpg"/> | 
+|<h3><b>4. Learn how each location suits your requirements and preferences</b></h3> <img src="images/i4.jpg"/> |
+|<h3><b>5. Compare each location based on your preferences to help you shortlist</b></h3> <img src="images/i5.jpg"/> | 
+|<h3><b>6. Find out pros and cons for living in each suggested neighbourhood to make an informed decision</b></h3> <img src="images/i6.jpg"/> |
